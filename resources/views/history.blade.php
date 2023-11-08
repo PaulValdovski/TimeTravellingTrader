@@ -29,8 +29,13 @@
             background-color: #f2f2f2;
         }
 
+        tr:first-child {
+            color: #000;
+        }
+
+
         tr:hover {
-            background-color: #f5f5f5;
+            background-color: #000; 
         }
     </style>
 </head>
