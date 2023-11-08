@@ -35,7 +35,7 @@
     </style>
 </head>
 @section('content')
-<table>
+<table style="color: #fff;" >
     <tr>
         <th>Query Time</th>
         <th>Buy Date</th>

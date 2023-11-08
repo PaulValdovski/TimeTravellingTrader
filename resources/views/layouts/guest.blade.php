@@ -14,8 +14,8 @@
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
-    <body class="font-sans text-gray-900 antialiased">
-        <div class="min-h-screen flex flex-col sm:justify-center items-center pt-6 sm:pt-0 bg-gray-100 dark:bg-gray-900">
+    <body class="font-sans text-gray-900 antialiased" style="background-image: url('https://img.freepik.com/free-vector/graph-world-map-stock-market-forex-trading-concept-background_56104-1006.jpg?w=826&t=st=1699038434~exp=1699039034~hmac=fc76565d0803f4ec66c6f4e72107d7c02573fc94ae79c62a764851fc497fd444'); background-size: cover;">
+        <div class="min-h-screen flex flex-col sm:justify-center items-center pt-6 sm:pt-0" >
             <div>
                 <a href="/">
                     <x-application-logo class="w-20 h-20 fill-current text-gray-500" />

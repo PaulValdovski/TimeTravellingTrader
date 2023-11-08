@@ -13,8 +13,8 @@ class InputController extends Controller
     public function processDateInterval(Request $request)
     {
         $request->validate([
-            'start_date' => 'required|date|date_format:Y-m-d|after_or_equal:1962-01-03|before_or_equal:2023-10-27',
-            'end_date' => 'required|date|date_format:Y-m-d|after_or_equal:start_date|before_or_equal:2023-10-27',
+            'start_date' => 'required|date|date_format:Y-m-d|after_or_equal:1962-01-03|before_or_equal:2023-10-26',
+            'end_date' => 'required|date|date_format:Y-m-d|after:start_date|before_or_equal:2023-10-27',
         ]);
 
         $startDate = $request->input('start_date');
